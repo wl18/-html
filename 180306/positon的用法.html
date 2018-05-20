@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>position的用法</title>
+		<style type="text/css">
+		div
+		{
+			border:1px solid red;
+			margin-top:5px;
+		}
+		#p1
+		{
+			/*设置为绝对定位*/
+			position:absolute;
+			/*距左端２０像素*/
+			left:20px;
+			/*距顶端１００像素*/
+			top:100px;
+		}
+		#p2
+		{
+			/*设置为相对定位*/
+			position:relative;
+			/*距左端１００像素*/
+			left:100px;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="p3">
+			这里是默认值。static
+		</div>
+		<div id="p1">
+			这是absolute的值－－无敌是多么寂寞<br>
+			left设置为２０像素，top设置为１００像素。
+		</div>
+		<div id="p2">
+			这是relative的值，无敌是多么寂寞<br>
+		</div>
+	</body>
+</html>

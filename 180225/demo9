@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>文字布局手把手</title>
+	</head>
+	<body>
+		<p>无敌是多么寂寞</p>
+		<br>
+		<nobr>
+		<p>无敌是多么寂寞           无敌是多么寂寞无敌是多么寂寞               无敌是多么寂寞</p>
+		</nobr>
+	</body>
+</html>

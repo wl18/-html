@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>z-index用法</title>
+		<style type="text/css">
+		#p1
+		{
+			/*设置为１００*/
+			z-index:100;
+			/*设置为相对定位*/
+			position:relative;
+			/*距左端１０像素*/
+			left:10px;
+			/*用不同的背景颜色区别各层*/
+			background:#ccc;
+		}
+		#p2
+		{
+			/*设置为２００，比１００大，将会显示在设置z-index值对象的前面*/
+			z-index:200;
+			position:relative;
+			left:30px;
+			top:-5px;
+			background:#888;
+		}
+		#p3
+		{
+			/*设置为３００比前面两个对象都大*/
+			z-index:300;
+			position:relative;
+			left:60px;
+			top:-10px;
+			background:#666;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="p1">
+			这是第一个层，z-index设置为１００．
+		</div>
+		<div id="p2">
+			这是第二个层，z-index设置为２００．
+		</div>
+		<div id="p3">
+			这是第一个层，z-index设置为３００．
+		</div>
+	</body>
+</html>

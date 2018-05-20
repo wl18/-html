@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>多层边框</title>
+		<style type="text/css">
+		#myborder
+		{
+			width:300px;
+			background:#bbb;
+			border:1px solid #aaa;
+		}
+		#mybg
+		{
+			/*四周外边距为３像素*/
+			margin:3px;
+			/*四周内边距为２像素*/
+			padding:2px;
+			/*设置与上面两种都不同的颜色*/
+			background:#ccc;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="myborder">
+			<div id="mybg">
+				这里面是用背景填充，类似于边框<br>
+				效果类似于边框，但这种可以定颜色值<br>
+				能体现立体性，加上圆角会更好。
+			</div>
+		</div>
+	</body>
+</html>

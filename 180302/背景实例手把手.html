@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>背景实例</title>
+		<style type="text/css">
+		.box
+		{
+			/*设置高度和边框*/
+			height:800px;
+			border:1px solid red;
+			background:green;
+			/*设置背景图片*/
+			background-image:url("005.jpg");
+			/*设置背景不铺排*/
+			background-repeat:no-repeat;
+			background-position:top right;
+		}
+		.otherbox
+		{
+			height:100px;
+			margin-top:10px;
+			border:1px solid red;
+			/*设置复合属性*/
+			background:green url("005.jpg") no-repeat top right;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="box"></div>
+		<div class="otherbox"></div>
+	</body>
+</html>

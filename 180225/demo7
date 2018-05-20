@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>欲格式化文本</title>
+</head>
+<body>
+	<!--下面一行表示pre与xmp的用法比较-->
+	下面是pre代码：
+	<pre>
+		<ol>
+		<li>无敌是多么寂寞                 无敌是多么寂寞</li>
+		<br>
+		<li>无敌是多么寂寞                 无敌是多么寂寞</li>
+		</ol>
+	</pre>
+	下面是xmp代码：
+	<xmp>
+		<ol>
+		<li>无敌是多么寂寞                 无敌是多么寂寞</li>
+		<br>
+		<li>无敌是多么寂寞                 无敌是多么寂寞</li>
+		</ol>
+	</xmp>
+</body>
+</html>

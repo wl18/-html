@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>设置框架滚动条</title>
+	</head>
+	<frameset cols="40%,*">
+		<frame src="http://www.sina.com.cn" scrolling="yes">
+		<frame src="http://www.163.com">
+	</frameset>
+</html>

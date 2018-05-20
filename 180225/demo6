@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>无序列表&有序列表</title>
+</head>
+<body>
+	<ul>
+		<li>无敌是多么的寂寞</li>
+		<li>无敌是多么的寂寞</li>
+		<li>无敌是多么的寂寞</li>
+		<li>无敌是多么的寂寞</li>
+	</ul>
+	<ol type="A">
+		<li>无敌是多么的寂寞</li>
+		<li>无敌是多么的寂寞</li>
+		<li>无敌是多么的寂寞</li>
+		<li>无敌是多么的寂寞</li>
+	</ol>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>设置列表文本排列</title>
+		<style type="text/css">
+		#i1
+		{
+			/*设置为默认的文本排序*/
+			border:1px solid red;
+		}
+		#ii2
+		{
+			/*设置文本内包含表项标记*/
+			list-style-position:outside;
+		}
+		#ii3
+		{
+			/*设置表项标记在文本外*/
+			list-style-position:inside;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="i1">
+			<!--设置列表为无序列表-->
+			<ul>
+				<li id="ii1">列表标记在文本以外，默认值outside</li>
+				<li id="ii2">列表标记在文本以内，设置值为outside</li>
+				<li id="ii3">列表标记在文本以内，设置值为inside</li>
+			</ul>
+		</div>
+	</body>
+</html>

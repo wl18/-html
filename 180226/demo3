@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单控件</title>
+	</head>
+	<body>
+		<ceter>
+		<form name="form_set" method="post" action="form_rec.asp">
+		图像域（单击图片类似于单击提交按钮）：<br />
+		<input type="image" src="a.jpg" /><hr />
+		文件域（单击“浏览”按钮可以浏览本机文件）：<br />
+		<input type="file" /><hr />
+		隐藏域（在页面中不可见，但是可以装载须传输数据）：<br />
+		<input type="hidden" name="txt" value="我是隐藏域中的值"	/>
+		</form>
+		</center>
+	</body>
+</html>

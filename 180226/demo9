@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>设置框架边框</title>
+	</head>
+	<frameset cols="40%,*" frameborder="no">
+		<frame src="a.html">
+		<frame src="b.html">
+	</frameset>
+</html>

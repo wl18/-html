@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>图像示例手把手</title>
+</head>
+<body>
+	<p>文字在底部显示<img src="a.jpg" align="bottom" alt="地球上的人"  width="300px" height="150px" border="1px">文字在底部显示</p>
+	<p>文字在中间显示<img src="a.jpg" align="middle" width="300px" height="150px">文字在中间显示</p>
+	<p>文字在顶端显示<img src="a.jpg" align="top" width="300px" height="150px">文字在顶端显示</p>
+	<br>
+	<!--下一行表示设置链接参数_blank值-->
+	<a href="http://www.163.com" target="_blank" title="网易网站">163网站--新浏览器打开</a>
+	<br>
+	<!--下一行表示设置链接参数_parent值-->
+	<a href="http://www.163.com" target="_parent">163网站--父窗口中打开</a>
+	<br>
+	<!--下一行表示设置链接参数_self值-->
+	<a href="http://www.163.com" target="_self">163网站--同一框架或窗口打开</a>
+	<br>
+	<a href="http://www.baidu.com" target="_blank"><img src="baidu.jpg" title="百度一下，你就知道"></a>
+	<br>
+	<a href="#无敌是多么寂寞">点击跳转到无敌是多么寂寞</a>
+	<br>
+	<br>
+	<br>
+	<a name="无敌是多么寂寞">无敌是多么寂寞</a>
+	<br>
+	<a href="mailto:2569096829@qq.com">作者的邮箱</a>
+	<br>
+	<!--设置链接且有title-->
+	<p>无敌是多么寂寞---<a href="http://www.hao123.com" target="_blank" title="链接到163网站">网易</a></p>
+	<!--设置不同的链接-->
+	<p>无敌是多么寂寞---<a href="http://www.sina.com.cn" target="_blank" title="连接到新浪网站">新浪</a></p>
+	<p>下面是一幅美丽的图，点击图片可连接到百度首页</p>
+	<p><a href="http://www.baidu.com" target="_blank"><img src="星球.jpg" title="链接到百度主页的图片"></a></p>
+</body>
+</html>

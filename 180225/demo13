@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>插入图像</title>
+</head>
+<body>
+	<!--以下是插入图像-->
+	<img src="城堡.jpg" align="middle" border="10px" width="600px" height="400" title="城堡"  alt="城堡">图像与文本middle对齐
+</body>
+</html>

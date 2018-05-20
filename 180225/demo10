@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>文字布局手把手</title>
+	</head>
+	<body>
+		<p align="right">无敌是多么寂寞</p>
+		<br>
+		<nobr>
+		<p align="center">无敌是多么寂寞无敌是多么寂寞无敌是多么寂寞
+		无敌是多么寂寞无敌是多么寂寞无敌是多么寂寞</p>
+		</nobr>
+		<ol>
+			<li>无敌是多么寂寞</li>
+			<li>无敌是多么寂寞</li>
+			<li>无敌是多么寂寞</li>
+		</ol>
+		<ul>
+			<li>无敌是多么寂寞</li>
+			<li>无敌是多么寂寞</li>
+			<li>无敌是多么寂寞</li>
+		</ul>
+		<pre>
+			int a;
+			int b;
+			float f;
+			f = a/b;
+		</pre>
+	</body>
+</html>

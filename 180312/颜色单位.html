@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>颜色单位</title>
+		<style type="text/css">
+		div
+		{
+			width:100px;
+			height:100px;
+			margin:5px;
+			float:left;
+		}
+		#color1
+		{
+			/*用rbg来表示颜色值*/
+			background:rgb(12%,120,120);
+			border:1px solid rgb(152,50%,20%);
+		}
+		#color2
+		{
+			/*用颜色名来表示颜色值*/
+			background:blue;
+			border:1px solid red;
+		}
+		#color3
+		{
+			/*用16进制表示颜色值*/
+			background:#cccccc;
+			border:1px solid #bb00dd;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="color1">
+			这里背景的颜色为rgb(12%,120,120)，边框为rgb(152,50%,20%)
+		</div>
+		<div id="color2">
+			这里背景颜色为blue，边框颜色为red
+		</div>
+		<div id="color3">
+			这里背景为#cccccc,边框为#bb00dd
+		</div>
+	</body>
+</html>

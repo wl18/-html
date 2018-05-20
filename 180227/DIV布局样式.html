@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>DIV布局样式</title>
+		<style type="text/css">
+		/*设置层的样式*/
+		#header
+		{
+			background:blue;
+			height:100px
+		}
+		#content{}
+		#right
+		{
+			width:33%;
+			height:250px;
+			float:right;
+			background:green;
+		}
+		#left
+		{
+			width:33%;
+			height:250px;
+			float:left;
+			background:orange;
+		}
+		#middle
+		{
+			width:34%;
+			height:250px;
+			float:left;
+			background:yellow;
+		}
+		#bottom
+		{
+			height:80px;
+			background:gray;
+			clear:both;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="header">头部</div>
+		<div id="content">
+			<div id="right">网页体右边</div>
+			<div id="left">网页体左边</div>
+			<div id="middle">网页体中间</div>
+		</div>
+		<div id="bottom">网页底部</div>
+	</body>
+</html>

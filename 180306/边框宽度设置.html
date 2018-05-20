@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>边框宽度设置</title>
+		<style type="text/css">
+		div
+		{
+			/*设置顶部外边距为１５px*/
+			margin-top:15px;
+			/*设置边框样式为实线*/
+			border-style:solid;
+		}
+		#b1
+		{
+			border-width:medium;
+		}
+		#b2
+		{
+			border-width:thin;
+		}
+		#b3
+		{
+			border-width:thick;
+		}
+		#b4
+		{
+			border-width:1px;
+		}
+		#b5
+		{
+			border-width:10px;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="b1">宽度为medium时，默认宽度</div>
+		<div id="b2">宽度为thin时，小于默认宽</div>
+		<div id="b3">宽度为thick时，大于默认宽</div>
+		<div id="b4">宽度用数值１px时</div>
+		<div id="b5">宽度用数值１０px时</div>
+	</body>
+</html>

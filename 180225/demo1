@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>标题字体设置</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1><font color="red">今天真好</font></h1>
+	<h2><s>今天真好</s></h2>
+	<h3><b>今天真符号</b></h3>
+	<h4><i>今天祝你好运</i></h4>
+	<h5><u>今天不错哦</u></h5>
+	<h6><font size="3" color="blue">今天很好</font></h6>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>框架基本语法</title>
+	</head>
+	<!--设置框架-->
+	<frameset cols="50,30,20">
+		<frame noresize="noresize" src="http://163.com">
+		<frame src="http://www.hao123.com">
+		<frame src="http://www.sina.com.cn">
+	</frameset>
+	<noframes>对不起，您的浏览器不支持框架</noframes>
+</html>

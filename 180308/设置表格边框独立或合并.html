@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>设置表格边框独立或合并</title>
+		<style type="text/css">
+		#t1
+		{
+			/*设置为独立显示*/
+			border-collapse:separate;
+		}
+		#t2
+		{
+			/*设置为合并显示*/
+			border-collapse:collapse;
+		}
+		</style>
+	</head>
+	<body>
+		border-collapse属性设置separate时，为默认值。
+		<table id="t1" bgcolor="red">
+			<tr>
+				<td bgcolor="#cccccc">单元格一</td><td bgcolor="#cccccc">单元格二</td>
+			</tr>
+			<tr>
+				<td bgcolor="#cccccc">单元格三</td><td bgcolor="#cccccc">单元格四</td>
+			</tr>
+			<tr>
+				<td bgcolor="#cccccc">单元格五</td><td bgcolor="#cccccc">单元格六</td>
+			</tr>
+		</table>
+		border-collapse属性设置为collapse时。
+		<table id="t2" bgcolor="red">
+			<tr>
+				<td bgcolor="#cccccc">单元格一</td><td bgcolor="#cccccc">单元格二</td>
+			</tr>
+			<tr>
+				<td bgcolor="#cccccc">单元格三</td><td bgcolor="#cccccc">单元格四</td>
+			</tr>
+			<tr>
+				<td bgcolor="#cccccc">单元格五</td><td bgcolor="#cccccc">单元格六</td>
+			</tr>
+		</table>
+	</body>
+</html>

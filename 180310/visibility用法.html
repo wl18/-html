@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>visibility用法</title>
+		<style type="text/css">
+		#vis1
+		{
+			/*设置visibility的默认值*/
+			visibility:inherit;
+			border:1px solid red;
+		}
+		#vis2
+		{
+			/*设置对象可见*/
+			visibility:visible;
+			border:1px solid red;
+		}
+		#vis3
+		{
+			/*设置对象不可见*/
+			visibility:hidden;
+			border:1px solid red;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="vis1">
+			可以看到这张图片吗？visibility设置为inherit
+			<img src="a.jpg">
+		</div>
+		<div id="vis2">
+			可以看到这张图片吗？visibility设置为visible
+			<img src="a.jpg">
+		</div>
+		<div id="vis3">
+			可以看到这张图片吗？visibility设置为hidden
+			<img src="a.jpg">
+		</div>
+	</body>
+</html>

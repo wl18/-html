@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>计算机输出格式</title>
+	</head>
+	<body>
+		<code>
+			<!--以下代码吧html嵌入到<body>中-->
+			<html>
+				<head>
+					<title>网页标题</title>
+				</head>
+				<body>
+					正文--这是用html标记的效果
+				</body>
+			</html>
+		</code>
+		<br>
+		<kbd>无敌是多么寂寞</kbd>
+		<br>
+		<tt>无敌是多么寂寞</tt>
+		<br>
+		<samp>无敌是多么寂寞</samp>
+		<br>
+		<var>无敌是多么寂寞</var>
+	</body>
+</html>

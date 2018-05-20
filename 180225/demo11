@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>文字滚动的设置</title>
+	</head>
+	<body>
+		<font size="5" color="#cc0000">
+		文字滚动示例（默认）：<marquee>无敌是多么寂寞</marquee>
+		文字滚动示例（向右）：<marquee direction="right" scrolldelay="500">无敌是多么寂寞</marquee>
+		文字滚动示例（向下，滚动方式为slide，速度为10）：
+		<marquee scrollamount="10" behavior="slide">无敌是多么寂寞</marquee>
+		文字滚动示例（默认方向，滚动方式为alternate，循环3次，速度为2）：
+		<marquee scrollamount="2" behavior="aiternate" loop="3">无敌是多么寂寞</marquee>
+		文字滚动示例（向上，背景色为#CCFF66,设置了背景宽度和高度）:
+		<marquee direction="up" bgcolor="#CCFF66" width="250" height="55">无敌是多么寂寞</marquee>
+		</font>
+	</body>
+</html>

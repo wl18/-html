@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>绝对定位实例</title>
+		<style type="text/css">
+		#p1
+		{
+			width:250px;
+			height:200px;
+			/*红色为容器层*/
+			border:1px solid red;
+			/*设置为相对定位*/
+			position:relative;
+		}
+		#pp1
+		{
+			/*绝对定位*/
+			position:absolute;
+			/*往右离开对象１０像素*/
+			right:-10px;
+			bottom:10px;
+			width:120px;
+			height:80px;
+			border:1px solid blue;
+		}
+		#pp2
+		{
+			/*绝对定位*/
+			position:absolute;
+			width:120px;
+			height:80px;
+			left:-10px;
+			top:50px;
+			border:1px solid blue;
+		}
+		#pp3
+		{
+			position:absolute;
+			width:120px;
+			height:80px;
+			border:1px solid green;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="p1">
+			<div id="pp1">
+			第一个层
+			</div>
+			<div id="pp2">
+			第二个层
+			</div>
+			<div id="pp3">
+			第三个层
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+

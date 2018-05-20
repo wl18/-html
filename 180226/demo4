@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单实例手把手</title>
+	</head>
+	<body>
+		<!--设置表单-->
+		<form>
+		<!--设置表单中的段落-->
+		<p>用户注册页面表单实例</p>
+		<!--设置表单中的文本框-->
+		用户名：<input type="text">
+		<br>
+		<!--设置表单密码框-->
+		密码：<input type="password">
+		<br>
+		<!--设置表单中的确认密码框-->
+		确认密码：<input type="password">
+		<!--设置表单中的单选框-->
+		<p>你的年龄层是？<br>
+		<input type="radio" name=reg>16周岁以下
+		<input type="radio" name=reg>17~22周岁
+		<input type="radio" name=reg>23~28周岁
+		<input type="radio" name=reg>29周岁以上
+		</p>
+		<!--设置表单中的复选框-->
+		<p>你个人的爱好有：<br>
+		<input type="checkbox" name=reg>交友
+		<input type="checkbox" name=reg>上网
+		<input type="checkbox" name=reg>看书
+		<input type="checkbox" name=reg>篮球
+		<input type="checkbox" name=reg>游戏
+		<input type="checkbox" name=reg>其他
+		</p>
+		<p>你来自哪里？<br>
+		<!--设置表单下拉框-->
+		<select name=come>
+			<option>北京</option>
+			<option selected>广东</option>
+			<option>上海</option>
+			<option>其他城市</option>
+		</select>
+		<p>自我介绍<br>
+		<!--设置表单文本域-->
+			<textarea cols=60 rows=5>
+			</textarea>
+		</p>
+		<!--设置表单提交按钮-->
+		<p><input type="submit" value="注册"> <input type="reset" value="重置"></p>
+		</form>
+	</body>
+</html>
